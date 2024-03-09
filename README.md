@@ -38,19 +38,9 @@ But there are 79 same ids in cal as in mass. However their information (img, pat
 ---
 2. **Dataset: VinDr-Mammo**
 - Physionet: https://physionet.org/content/vindr-mammo/1.0.0/
-- Kaggle: https://www.kaggle.com/datasets/hadighahroudi/vindr-mammo-dataset?rvi=1
 
 BI-RADS assessment categories (from 1 to 5) and breast density levels (A, B, C, or D) are provided. Regarding abnormal regions, the list of finding categories included in this study are mass, calcification, asymmetries, architectural distortion, and other associated features, namely suspicious lymph node, skin thickening, skin retraction, and nipple retraction. The four abnormal categories - mass, calcification, asymmetries, and architectural distortion - are also assessed BI-RADS. The findings of BI-RADS 2, i.e., benign, were not marked. Only findings of either BI-RADS 3, 4, or 5, which require follow-up examination, were annotated by bounding boxes.
 
 ## Preprocessing
 - Resize to 224
 
-## Augmentation
-- [x] Use 7 augmentation (only on abnormal case):
-  + flipping horizontally
-  + flipping both horizontally and vertically
-  + flipping vertically
-  + rotate 25
-  + rotate 25 and flip_horizontal
-  + rotate -25
-  + rotate 25 and flip horizontal
