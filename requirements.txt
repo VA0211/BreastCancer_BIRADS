@@ -1,0 +1,11 @@
+tensorflow==2.15.0
+scipy==1.11.4
+ipykernel
+numpy
+pandas
+scikit-learn
+scikit-plot
+seaborn
+matplotlib
+opencv-python
+opencv-python-headless
