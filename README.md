@@ -1,4 +1,4 @@
-# DAT301m - Group9 - Breast Cancer Classification using Mammography
+# Breast Cancer Classification using Mammography
 
 **Dataset: VinDr-Mammo**
 - Physionet: https://physionet.org/content/vindr-mammo/1.0.0/
